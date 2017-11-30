@@ -1,0 +1,2 @@
+recipes.remove(<waystones:waystone>);
+recipes.addShaped(<waystones:waystone>, [[<thermalfoundation:material:513>, <ore:bricksStone>, <thermalfoundation:material:514>], [<ore:bricksStone>, <waystones:warp_stone>, <ore:bricksStone>], [<ic2:te:3>, <ore:chest>, <computercraft:computer>]]);
