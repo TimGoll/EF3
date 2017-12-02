@@ -647,5 +647,65 @@
     "Spawn Type": "NONE",
     "Parent 1": "chickens:quartzchicken",
     "Parent 2": "chickens:blackchicken"
+  },
+  "morechickens:redstonecrystalchicken": {
+    "Name": "redstonecrystalchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients",
+    "Drop Item": "extrautils2:ingredients",
+    "Spawn Type": "NONE",
+    "Parent 1": "",
+    "Parent 2": ""
+  },
+  "morechickens:stoneburntchicken": {
+    "Name": "stoneburntchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:decorativesolid:3",
+    "Drop Item": "extrautils2:decorativesolid:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:redstonecrystalchicken",
+    "Parent 2": "chickens:goldchicken"
+  },
+  "morechickens:lunarreactivedustchicken": {
+    "Name": "lunarreactivedustchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:3",
+    "Drop Item": "extrautils2:ingredients:3",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:redstonecrystalchicken",
+    "Parent 2": "chickens:bluechicken"
+  },
+  "morechickens:moonstonechicken": {
+    "Name": "moonstonechicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:5",
+    "Drop Item": "extrautils2:ingredients:5",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:lunarreactivedustchicken",
+    "Parent 2": "chickens:blazechicken"
+  },
+  "morechickens:magicalwoodchicken": {
+    "Name": "magicalwoodchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:decorativesolidwood:1",
+    "Drop Item": "extrautils2:decorativesolidwood:1",
+    "Spawn Type": "NONE",
+    "Parent 1": "chickens:logchicken",
+    "Parent 2": "morechickens:xpchicken"
+  },
+  "morechickens:demonmetalchicken": {
+    "Name": "demonmetalchicken",
+    "Is Enabled": true,
+    "Lay Coefficient": 1.0,
+    "Lay Item": "extrautils2:ingredients:11",
+    "Drop Item": "extrautils2:ingredients:11",
+    "Spawn Type": "NONE",
+    "Parent 1": "morechickens:magicalwoodchicken",
+    "Parent 2": "morechickens:moonstonechicken"
   }
 }

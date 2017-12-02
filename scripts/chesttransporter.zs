@@ -1,0 +1,16 @@
+recipes.remove(<chesttransporter:chesttransporter>);
+recipes.remove(<chesttransporter:chesttransporter_iron>);
+recipes.remove(<chesttransporter:chesttransporter_gold>);
+recipes.remove(<chesttransporter:chesttransporter_diamond>);
+recipes.remove(<chesttransporter:chesttransporter_copper>);
+recipes.remove(<chesttransporter:chesttransporter_obsidian>);
+recipes.remove(<chesttransporter:chesttransporter_tin>);
+recipes.remove(<chesttransporter:chesttransporter_silver>);
+recipes.addShaped(<chesttransporter:chesttransporter>, [[<ore:plankWood>, null, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_iron>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_gold>, [[<ore:ingotGold>, null, <ore:ingotGold>], [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_diamond>, [[<ore:gemDiamond>, null, <ore:gemDiamond>], [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_copper>, [[<ore:ingotCopper>, null, <ore:ingotCopper>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_obsidian>, [[<ore:blockObsidian>, null, <ore:blockObsidian>], [<ore:blockObsidian>, <ore:blockObsidian>, <ore:blockObsidian>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_tin>, [[<ore:ingotTin>, null, <ore:ingotTin>], [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>], [null, <minecraft:stick>, null]]);
+recipes.addShaped(<chesttransporter:chesttransporter_silver>, [[<ore:ingotSilver>, null, <ore:ingotSilver>], [<ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>], [null, <minecraft:stick>, null]]);

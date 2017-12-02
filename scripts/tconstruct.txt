@@ -1,0 +1,44 @@
+//remove everything, what can be done with different ores
+mods.tconstruct.Smeltery.removeMelting(<minecraft:bucket>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_trapdoor>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_door>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:iron_bars>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:hopper>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:cauldron>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:anvil>);
+
+//Blue Slime Additions
+mods.tconstruct.Smeltery.addMelting(<liquid:blueslime> * 125, <tconstruct:edible:1>, 200, <tconstruct:slime_congealed:1>);
+mods.tconstruct.Smeltery.addMelting(<liquid:blueslime> * 250, <tconstruct:slime_congealed:1>, 200, <tconstruct:slime_congealed:1>);
+mods.tconstruct.Casting.addBasinRecipe(<tconstruct:slime_congealed:1>, <liquid:blueslime> * 500, null, false, 20);
+
+//Compressed Block Smelting
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 648, <extrautils2:CompressedCobblestone>, 200, <minecraft:cobblestone>);
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 5832, <extrautils2:CompressedCobblestone:1>, 350, <minecraft:cobblestone>);
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 52488, <extrautils2:CompressedCobblestone:2>, 500, <minecraft:cobblestone>);
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 472392, <extrautils2:CompressedCobblestone:3>, 650, <minecraft:cobblestone>);
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 4251528, <extrautils2:CompressedCobblestone:4>, 800, <minecraft:cobblestone>);
+mods.tconstruct.Smeltery.addMelting(<liquid:stone> * 38263752, <extrautils2:CompressedCobblestone:5>, 950, <minecraft:cobblestone>);
+
+//Adds Dirt Melting To Smeltery
+mods.tconstruct.Smeltery.addMelting(<liquid:dirt> * 648, <extrautils2:CompressedDirt>, 200, <minecraft:dirt>);
+mods.tconstruct.Smeltery.addMelting(<liquid:dirt> * 5832, <extrautils2:CompressedDirt:1>, 350, <minecraft:dirt>);
+mods.tconstruct.Smeltery.addMelting(<liquid:dirt> * 52488, <extrautils2:CompressedDirt:2>, 500, <minecraft:dirt>);
+mods.tconstruct.Smeltery.addMelting(<liquid:dirt> * 472392, <extrautils2:CompressedDirt:3>, 650, <minecraft:dirt>);
+
+//Other Items to be Smelted Down
+
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 2592, <extrautils2:spike_iron>, 400, <extrautils2:spike_iron>);
+mods.tconstruct.Smeltery.addMelting(<liquid:iron> * 2304, <mob_grinding_utils:spikes>, 400, <mob_grinding_utils:spikes>);
+mods.tconstruct.Smeltery.addMelting(<liquid:gold> * 2592, <extrautils2:spike_gold>, 400, <extrautils2:spike_gold>);
+
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 288, <actuallyadditions:itemSwordObsidian>, 400, <actuallyadditions:itemSwordObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 288, <actuallyadditions:itemHoeObsidian>, 400, <actuallyadditions:itemHoeObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 576, <actuallyadditions:itemBootsObsidian>, 400, <actuallyadditions:itemBootsObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 1008, <actuallyadditions:itemPantsObsidian>, 400, <actuallyadditions:itemPantsObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 432, <actuallyadditions:itemAxeObsidian>, 400, <actuallyadditions:itemAxeObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 1152, <actuallyadditions:itemChestObsidian>, 400, <actuallyadditions:itemChestObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 1584, <actuallyadditions:obsidianPaxel>, 400, <actuallyadditions:obsidianPaxel>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 144, <actuallyadditions:itemShovelObsidian>, 400, <actuallyadditions:itemShovelObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 432, <actuallyadditions:itemPickaxeObsidian>, 400, <actuallyadditions:itemPickaxeObsidian>);
+mods.tconstruct.Smeltery.addMelting(<liquid:obsidian> * 720, <actuallyadditions:itemHelmObsidian>, 400, <actuallyadditions:itemHelmObsidian>);

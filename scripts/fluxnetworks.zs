@@ -1,0 +1,1 @@
+furnace.addRecipe(<fluxnetworks:flux>, <minecraft:redstone>);
